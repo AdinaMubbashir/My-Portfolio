@@ -467,3 +467,44 @@ section {
     font-size: 14px;
   }
   
+
+
+@media only screen and (max-width: 768px) {
+  /* CSS styles for screens up to 768px wide */
+  body {
+    font-size: 16px;
+  }
+  
+  nav ul li a {
+    padding: 5px;
+  }
+  
+  .about-container {
+    flex-direction: column;
+  }
+  
+  .about-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .about-text h2::before {
+    display: none;
+  }
+  
+  .projects {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project {
+    width: 80%;
+    margin-right: 20px;
+    margin-bottom: 2em;
+  }
+  
+  .project:last-of-type {
+    margin-right: 0;
+  }
+}
