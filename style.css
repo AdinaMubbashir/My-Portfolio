@@ -288,6 +288,22 @@ section {
 }
 
 
+#about-paragraph {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+@media screen and (max-width: 700px) {
+  #about-paragraph {
+    font-size: 14px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
 .contact {
   background: linear-gradient(to top, #a76dd0, #ffffff);
   padding: 100px 0;
@@ -469,7 +485,7 @@ section {
   
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
   body {
     font-size: 16px;
   }
