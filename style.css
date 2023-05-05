@@ -485,36 +485,51 @@ section {
   
 
 
+/* CSS for screens smaller than 600px */
 @media only screen and (max-width: 600px) {
-nav ul {
-flex-direction: column;
-}
-
-nav ul li {
-margin: 10px 0;
-display: block;
-}
-
-.about-container {
-flex-direction: column;
-}
-
-.about-image {
-margin-right: 0;
-}
-
-.projects {
-    display: block;
+  body {
+    font-size: 16px;
   }
-  
- .project {
+
+  p {
+    font-size: 18px;
+  }
+
+  nav {
+    padding: 5px;
+  }
+
+  nav ul li a {
+    padding: 5px;
+  }
+
+  .home h1 {
+    font-size: 3em;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .project {
     width: 100%;
+    padding: 0;
     margin-bottom: 2em;
-    text-align: center;
   }
 
-.projects h2 {
-margin-top: 1em;
-}
-}
+  .projects {
+    align-items: center;
+    padding: 20px;
+  }
 
+  .projects h2 {
+    font-size: 1.5em;
+    padding: 0;
+  }
+}
