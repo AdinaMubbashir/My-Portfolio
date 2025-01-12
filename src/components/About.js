@@ -11,7 +11,7 @@ function About() {
           <p>As a developer, my primary interest lies in back end development. I am eager to acquire practical, hands-on experience in the software development industry.</p>
           <p>At the moment, my primary focus is to broaden my knowledge and enhance my skills in C#.</p>
         </div>
-        <img src="https://media.licdn.com/dms/image/v2/D5603AQERAei3DXMTwA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729953287107?e=1736380800&v=beta&t=26q-_njM8uBYiYPoB8jmRLfNZq3C64hUtOJ6An1iRTE" alt="Vinod" />
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQERAei3DXMTwA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729953287107?e=1742428800&v=beta&t=kwnRlSZA6_ph4q-lAjgR0v6JiEe9g9NT-dCOThBiVAE" alt="Vinod" />
       </section>
 
       <section id="skills" className="skills-section">
