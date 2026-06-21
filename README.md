@@ -57,16 +57,6 @@ No build step. No dependencies. Just one file.
 6. **Arcade** — Playable Pac-Man game
 7. **Contact** — Links to email, LinkedIn, GitHub
 
----
-
-## File Structure
-
-```
-My-Portfolio/
-├── src/
-│   └── index.html      ← entire site (HTML + CSS + JS)
-└── README.md
-```
 
 ---
 
